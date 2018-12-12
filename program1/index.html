@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attendance Management</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">Class Attendance App</h1>
+      <div class="flow-right controls">
+        <span>Student count: <span id="std-count">0</span></span>
+        <span>No-show count: <span id="unchecked-count">0</span></span>
+      </div>
+      <button class="button center" onClick="addNewStudent()">Add New Student</button>
+      <ul id="std-list" class="std-list"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

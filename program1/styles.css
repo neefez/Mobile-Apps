@@ -1,0 +1,19 @@
+.SlideShow {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Header {
+  margin: 40px;
+  border: 5px dotted pink;
+}
+
+.title{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bullet{
+  margin: 40px;
+  border: 5px dotted pink;
+}
